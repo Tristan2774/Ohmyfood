@@ -380,6 +380,38 @@ main {
     animation-fill-mode: forwards;
   }
 
+  @-webkit-keyframes like {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      background: linear-gradient(to bottom, #9356DC, #FF79DA);
+      -webkit-background-clip: text;
+      
+    }
+    100% {
+      background: linear-gradient(to bottom, #9356DC, #FF79DA);
+      -webkit-background-clip: text;
+      
+    }
+  }
+  
+  @keyframes like {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      background: linear-gradient(to bottom, #9356DC, #FF79DA);
+      -webkit-background-clip: text;
+      
+    }
+    100% {
+      background: linear-gradient(to bottom, #9356DC, #FF79DA);
+      -webkit-background-clip: text;
+      
+    }
+  }
+
   /*  Boutons plats  */
 .ellipse {
   overflow: hidden;
@@ -465,6 +497,19 @@ animation-fill-mode: forwards;
 animation-delay: 450ms;
 animation-fill-mode: forwards;
   opacity: 0;
+}
+
+
+
+@keyframes fadein {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
   /* Partie Responsive */
