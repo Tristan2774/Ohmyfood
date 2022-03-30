@@ -24,3 +24,11 @@ h1 {
   h4, p {
     margin: 0;
   }
+
+  /*  Caractéristiques du header  */
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  }
