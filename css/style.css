@@ -58,3 +58,11 @@ footer {
     width: 100px;
     filter: invert(100%);
   }
+
+  /*  Caractéristiques de la partie main  */
+main {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+  }
