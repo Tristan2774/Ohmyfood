@@ -194,6 +194,38 @@ main {
     text-align: center;
   }
 
+/*  Page principale section intro  */
+.photopage {
+  position: relative;
+  width: 100%;
+}
+
+.intro {
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.titreintro {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 40px 40px 0 0;
+}
+
+/*  Page principale section des menus  */
+.title-underline {
+  border-bottom: 3px solid #99E2D0;
+  padding-bottom: 5px;
+}
+
+.menupage {
+  position: relative;
+  margin: 0px 15px 30px 15px;
+}
+
   /*  Caractéristiques du loader  */
 
 .loading {
