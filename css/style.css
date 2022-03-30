@@ -317,3 +317,33 @@ main {
     opacity: 0.5;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
   }
+
+  /*  Mise en place boutons "J'aime"  */
+.checkbox-like {
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+    height: 25px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .checkbox-like.checkbox-like--position {
+    position: initial;
+    margin-top: 20px;
+  }
+  
+  .checkbox-like input[type=checkbox]:checked ~ .unchecked {
+    display: none;
+  }
+  
+  .checkbox-like input[type=checkbox]:checked ~ .checked {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0);
+  }
+  
+  .checkbox-like input[type=checkbox], .checkbox-like .checked {
+    display: none;
+    animation: like 2s;
+    animation-fill-mode: forwards;
+  }
