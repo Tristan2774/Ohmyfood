@@ -66,3 +66,30 @@ main {
     padding-bottom: 50px;
     background-color: whitesmoke;
   }
+
+  /*  Partie main avec section concept  */
+.concept {
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+  }
+  
+  .location {
+    background-color: #f0f0f0;
+  }
+  
+  .location .icon {
+    padding: 15px 15px 15px 0;
+  }
+  
+  .concept-title {
+    padding: 0 40px;
+  }
+  
+  .concept-description {
+    padding: 0 30px;
+  }
+  
+  .lighter {
+    font-weight: lighter;
+  }
