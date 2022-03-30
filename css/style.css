@@ -257,3 +257,37 @@ main {
     font-size: 2rem;
     padding-top: 3rem;
   }
+
+  /* Mise en place des keyframes pour le loader */
+
+  @keyframes loaderAppaer {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    60% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    70% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    90% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0);
+      display: none;
+    }
+  }
+  @keyframes rebound {
+    0% {
+      transform: translate3d(0, 10px, 0);
+    }
+    100% {
+      transform: translate3d(0, -20px, 0);
+    }
+  }
