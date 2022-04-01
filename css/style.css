@@ -367,6 +367,11 @@ main {
     cursor: pointer;
   }
   
+  .checkbox-like.checkbox-like--position {
+    position: initial;
+    margin-top: 25px;
+  }
+  
   @keyframes heartFilling {
     0% {
       background: linear-gradient(0deg, #FF79DA, #9356DC 10%, white 0%);
